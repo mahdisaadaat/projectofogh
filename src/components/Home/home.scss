@@ -1,0 +1,22 @@
+.Home {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  @media only screen and (max-width: 1400px) {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: auto;
+  }
+  @media only screen and (max-width: 600px) {
+    display: grid;
+    grid-template-columns: auto;
+    width: 70%;
+    margin: auto;
+  }
+
+  .noPosts {
+    text-align: center;
+  }
+}
