@@ -1,0 +1,68 @@
+.postEdit {
+  width: 50%;
+  margin: auto 25px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px #000;
+  .editPost {
+    margin: 25px;
+    #map {
+      margin: auto;
+      width: 550px;
+      height: 150px;
+    }
+    form {
+      padding: 20px;
+      width: 80%;
+      margin: auto;
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+
+        input {
+          border: none;
+          background: #cee5d0;
+          border-radius: 25px;
+          width: 50%;
+          outline: none;
+          padding: 10px;
+          text-align: center;
+        }
+
+        textarea {
+          border: none;
+          background: #cee5d0;
+          border-radius: 25px;
+          width: 50%;
+          outline: none;
+          padding: 10px;
+        }
+      }
+      .goBack {
+        border: none;
+        background: rgb(137, 107, 0);
+        padding: 15px;
+        margin: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+      .editButton {
+        border: none;
+        background: rgb(221, 255, 0);
+        padding: 15px;
+        margin: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
