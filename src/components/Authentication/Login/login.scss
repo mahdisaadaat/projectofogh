@@ -1,0 +1,56 @@
+section {
+  width: 30%;
+  margin: 150px auto;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px #000;
+
+  @media only screen and (max-width: 600px) {
+    margin: 0 auto;
+    width: 90%;
+  }
+  @media only screen and (max-width: 1000px) {
+    margin: 100px auto;
+    width: 70%;
+  }
+  .errorMessage {
+    color: #cc3636;
+  }
+  form {
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 20px;
+      input {
+        border: none;
+        background: #cee5d0;
+        border-radius: 25px;
+        width: 50%;
+        outline: none;
+        padding: 10px;
+      }
+    }
+    .signInButton {
+      background: #367e18;
+      padding: 10px 35px;
+      margin: 5px;
+      border-radius: 25px;
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+  .signupNow {
+    color: #cc3636;
+    text-decoration: none;
+    opacity: 0.5;
+    letter-spacing: 2px;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
