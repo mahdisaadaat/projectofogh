@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "iranSansBold";
+  src: url("./assets/fonts/iransansbold.ttf");
+}
+* {
+  font-family: "iranSansBold";
+  color: #000;
+}
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.App {
+  background: #94b49f;
+}
+
+.AppDark {
+  background: #000;
+  color: #fff;
+  .Nav {
+    background: gray;
+  }
+  .search {
+    background: #000;
+  }
+  h1 {
+    color: #fff;
+  }
+  .Footer {
+    background: gray;
+  }
+  .post {
+    background: gray;
+  }
+  .NewPost {
+    background: gray;
+  }
+  .About {
+    background: gray;
+  }
+  .PostPage {
+    background: gray;
+  }
+}
