@@ -1,0 +1,24 @@
+nav {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .page-item {
+      background: #eee;
+      padding: 5px;
+      width: 30px;
+      border-radius: 50%;
+      margin: 10px;
+      display: block;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          color: rgb(42, 83, 207);
+        }
+      }
+    }
+  }
+}
