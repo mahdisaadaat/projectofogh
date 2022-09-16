@@ -1,0 +1,82 @@
+.PostPage {
+  width: 30%;
+  height: 450px;
+  padding: 25px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px #000;
+  @media only screen and (max-width: 1300px) {
+    display: block;
+    width: 40%;
+  }
+  @media only screen and (max-width: 1000px) {
+    display: block;
+    width: 40%;
+  }
+  @media only screen and (max-width: 950px) {
+    display: block;
+    width: 70%;
+  }
+  @media only screen and (max-width: 600px) {
+    display: block;
+    width: 90%;
+  }
+  #map {
+    border-radius: 25px;
+    margin: auto;
+    width: 550px;
+    height: 150px;
+  }
+  .posts {
+    padding: 25px;
+    margin: 20px;
+    p {
+      color: #000;
+    }
+    #map {
+      width: 80%;
+    }
+    h3 {
+      color: #000;
+    }
+    .postBody {
+      width: 50%;
+      margin: auto;
+    }
+    .editButton {
+      border: none;
+      background: rgb(221, 255, 0);
+      padding: 15px;
+      margin: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    .deleteButton {
+      border: none;
+      background: rgb(255, 0, 0);
+      padding: 15px;
+      margin: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    .goBack {
+      border: none;
+      background: rgb(137, 107, 0);
+      padding: 15px;
+      margin: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
